@@ -1,13 +1,13 @@
 // import './App.css'
 import Header from './Components/Header'
-import SearchBar from './Components/SearchBar'
+import Footer from './Components/Footer'
 
 function App() {
 
   return (
     <>
      <Header/>
-     <SearchBar/>
+     <Footer/>
     </>
   )
 }
