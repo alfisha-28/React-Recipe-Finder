@@ -1,0 +1,33 @@
+.scroll-section {
+  padding: 40px 20px;
+}
+
+.scroll-section h2 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+}
+
+.scroll-container {
+  display: flex;
+  margin-bottom: 20px;
+  overflow-x: auto;
+  gap: 20px;
+  padding-bottom: 10px;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+}
+
+.scroll-container::-webkit-scrollbar {
+  height: 8px;
+}
+
+.scroll-container::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 4px;
+}
+
+.scroll-container > * {
+  flex: 0 0 auto;
+  scroll-snap-align: start;
+  min-width: 220px;
+}
