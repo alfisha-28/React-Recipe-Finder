@@ -1,0 +1,38 @@
+.recipe-page {
+  max-width: 900px;
+  margin: 120px auto;
+  padding: 40px;
+  background-color: #fabcad;
+  border-radius: 20px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.recipe-page h1 {
+  font-size: 36px;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+.recipe-page img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  border-radius: 16px;
+  margin: 20px 0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.recipe-page p {
+  font-size: 18px;
+  color: #333;
+  line-height: 1.6;
+  margin-bottom: 24px;
+}
+
+.recipe-page h3 {
+  font-size: 24px;
+  color: #264653;
+  margin-top: 40px;
+  margin-bottom: 12px;
+}
